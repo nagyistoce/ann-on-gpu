@@ -22,7 +22,7 @@ import javafx.scene.chart.LineChart.Data;
 import javafx.scene.shape.Polygon;
 
 /**
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 var stage: javafx.stage.Stage;
 

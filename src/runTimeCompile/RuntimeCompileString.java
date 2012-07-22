@@ -17,7 +17,7 @@ import javax.swing.JOptionPane;
 /**
  * This class takes care of run time compilation and execution of formula entered by user.
  * Methods of this class create two temp files namely TempCompileStringClass.java and TempCompileStringClass.class
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public class RuntimeCompileString {
 

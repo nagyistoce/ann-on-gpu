@@ -6,7 +6,7 @@ import javafx.async.RunnableFuture;
 
 /**
  * This class help in launching a prallel thread which takes about training of ANN
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public class JavaFXTrainingThreadTask extends JavaTaskBase {
 

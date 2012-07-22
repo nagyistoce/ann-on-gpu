@@ -10,7 +10,7 @@ import javafx.async.RunnableFuture;
 /**
  * This class helps in launching of thread which will take care of training ANN.
  * Throughout the life of application this thread will run in parallel
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public class JavaTrainingThreadTask implements RunnableFuture {
 

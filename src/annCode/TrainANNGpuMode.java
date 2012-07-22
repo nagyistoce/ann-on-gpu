@@ -13,7 +13,7 @@ import threadHandlers.JavaTrainingThreadTask;
 /**
  * This class involves code that will execute code on GPU.
  * It extends TrainANN abstract classes and implements its abstract method.
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public class TrainANNGpuMode extends TrainANN {
 
