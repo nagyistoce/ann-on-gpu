@@ -1,5 +1,4 @@
 
-
 package annCode;
 
 import javax.swing.JFrame;
@@ -10,7 +9,7 @@ import threadHandlers.JavaTrainingThreadTask;
  * This abstract class is parent class for the two classes TrainANNCpuMode and TrainANNGpuMode.
  * It holds some common abstract methods which are to be implemented by child classes.
  *
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public abstract class TrainANN {
 
