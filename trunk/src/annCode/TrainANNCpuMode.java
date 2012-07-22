@@ -1,4 +1,3 @@
-
 package annCode;
 
 import threadHandlers.JavaTrainingThreadTask;
@@ -9,7 +8,7 @@ import javax.swing.JOptionPane;
 /**
  * This class involves code that will execute code on CPU in sequential way.
  * It extends TrainANN abstract classes and implements its abstract method.
- * @author praveen_kulkarni02
+ * @author praveen_kulkarni
  */
 public class TrainANNCpuMode extends TrainANN {
 
