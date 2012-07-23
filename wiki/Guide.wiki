@@ -7,7 +7,8 @@
 
 = Introduction =
 
-The code provided gives implementation of back propagation training algorithm for CPU (TrainANNCpuMode.java) and GPU (TrainANNGpuMode.java). CPU code is a sequential java code while GPU code is CUDA implementation done with help of JCuda (Java bindings for CUDA). The back propagation algorithm implemented is designed to make use of 3 layered neural network for function approximation.
+The code provided gives implementation of back propagation training algorithm for CPU(TrainANNCpuMode.java) and GPU (TrainANNGpuMode.java). CPU code is a sequential java code while GPU code is CUDA implementation done with help of JCuda (Java bindings for CUDA). The back propagation algorithm implemented is designed to make use of 3 layered neural network for function approximation.
+
 As your number of patterns increase required CPU time grows exponentially thus increasing the time for training. By switching to GPU mode you will be able to see drastic time improvements (greater than 15x) when it comes to large number of patterns.
 
 
