@@ -1,5 +1,10 @@
 #summary Guide to use this code and handle the application
 
+= Details =
+Author    : Praveen Kulkarni (praveen@spikingneurons.com)
+Language  : Java, JCuda, JavaFX, CUDA(Kernel code)
+Platform  : Windows
+Technology: CUDA
 
 = Introduction =
 
