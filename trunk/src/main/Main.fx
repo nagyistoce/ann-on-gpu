@@ -666,6 +666,7 @@ public class Main {
             return;
         }
 
+
         // configure the variables which are dependent on numberOfPatterns entered.
         TrainANN.setConfigurationVariables(numberOfPatterns);
 
@@ -682,7 +683,7 @@ public class Main {
         var yTrainingOutcomeArray: Number[];
         for (count in [1..TrainANN.numberOfInputPatterns]) {
             // calculate value of y for given x for given formula
-            y = RuntimeCompileString.compute(x);
+            y = RuntimeCompileString.compute(x);println("{y}");
             insert Data {
                 xValue: x
                 yValue: y
@@ -776,6 +777,11 @@ public class Main {
 
         delete  annDataSeries.data;
         delete  trainingDataSeries.data;
+
+        //javaFxTrainingThreadTask.javaTrainingThreadTask.teacherInputArray = null;
+        //javaFxTrainingThreadTask.javaTrainingThreadTask.teacherOutputArray = null;
+        //javaFxTrainingThreadTask.javaTrainingThreadTask.trainingOutcomeArray = null;
+
         message = "\n\tTraining resetted. Click 'COMPUTE' button to start again.";
     }
 

@@ -129,6 +129,7 @@ public class RuntimeCompileString {
                     "ERROR OCCURED WHILE COMPILING COMMAND", JOptionPane.ERROR_MESSAGE);
             return false;
         }
+        
         return true;
 
     }
